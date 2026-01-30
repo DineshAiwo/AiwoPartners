@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | AIWO Partners</title>
+
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts: Poppins & Inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .contact-header {
+            padding: 180px 0 100px;
+            background: var(--gradient-hero);
+            color: white;
+            border-radius: 0 0 100px 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-card {
+            background: white;
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-soft);
+            height: 100%;
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            background: var(--bg-main);
+            color: var(--primary-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top aiwo-navbar navbar-light scrolled">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 d-flex align-items-center" href="index.html">
+                <span>AIWO</span>
+                <span class="ms-2 fw-normal fs-5">PARTNERS</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="program-overview.html">Program</a></li>
+                    <li class="nav-item"><a class="nav-link" href="partner-types.html">Models</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tiers.html">Tiers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="calculator.html">ROI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="success-stories.html">Success</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item ms-lg-4">
+                        <a class="btn btn-aiwo btn-aiwo-primary" href="apply.html">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="contact-header text-center overflow-hidden">
+        <div class="video-bg-container">
+            <video autoplay muted loop playsinline>
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-global-connection-network-concept-41584-large.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="container relative z-index-2">
+            <h1 class="display-4 fw-black">Get In Touch</h1>
+            <p class="lead opacity-75">We're here to help you build your longevity ecosystem.</p>
+        </div>
+    </header>
+
+    <!-- Contact Info & Form -->
+    <section class="section-padding section-white">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Info -->
+                <div class="col-lg-5">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="contact-card">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <h4>Email Us</h4>
+                                <p class="text-secondary mb-0">General: partners@aiwo.health</p>
+                                <p class="text-secondary">Support: support-partners@aiwo.health</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="contact-card">
+                                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                                <h4>Our HQ</h4>
+                                <p class="text-secondary mb-0">AIWO Health Private Limited,</p>
+                                <p class="text-secondary">Chennai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-7">
+                    <div class="contact-card p-5">
+                        <h3 class="mb-4">Send us a Message</h3>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Full Name</label>
+                                    <input type="text" class="form-control form-control-aiwo" placeholder="John Doe">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Email Address</label>
+                                    <input type="email" class="form-control form-control-aiwo"
+                                        placeholder="john@example.com">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-bold">Subject</label>
+                                    <select class="form-select form-control-aiwo">
+                                        <option>Partnership Inquiry</option>
+                                        <option>Technical Support</option>
+                                        <option>Billing / Commissions</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-bold">Message</label>
+                                    <textarea class="form-control form-control-aiwo" rows="5"
+                                        placeholder="How can we help?"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-aiwo btn-aiwo-primary px-5 mt-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Banner -->
+    <section class="section-padding animated-mesh text-white">
+        <div class="container text-center">
+            <div class="glass-card p-4 bg-transparent border-white" data-aos="zoom-in">
+                <h4 class="mb-4">Follow the Revolution</h4>
+                <div class="d-flex justify-content-center gap-4 fs-2">
+                    <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container section-padding">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-0">AIWO <span class="fw-normal opacity-50">PARTNERS</span></h3>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex gap-4 justify-content-md-end fs-4 mb-3">
+                        <i class="fab fa-linkedin pointer hover-opacity"></i>
+                        <i class="fab fa-twitter pointer hover-opacity"></i>
+                    </div>
+                    <p class="mb-0 small opacity-50">&copy; 2026 AIWO Partner Program. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>

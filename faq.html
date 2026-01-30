@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | AIWO Partners</title>
+
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts: Poppins & Inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .faq-header {
+            padding: 180px 0 100px;
+            background: var(--gradient-hero);
+            color: white;
+            border-radius: 0 0 100px 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .accordion-item {
+            border: none;
+            border-radius: 12px !important;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .accordion-button {
+            padding: 1.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            background: white !important;
+            box-shadow: none !important;
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: var(--primary-blue);
+            border-bottom: 1px solid #edf2f7;
+        }
+
+        .accordion-body {
+            padding: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top aiwo-navbar navbar-light scrolled">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 d-flex align-items-center" href="index.html">
+                <span>AIWO</span>
+                <span class="ms-2 fw-normal fs-5">PARTNERS</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="program-overview.html">Program</a></li>
+                    <li class="nav-item"><a class="nav-link" href="partner-types.html">Models</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tiers.html">Tiers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="calculator.html">ROI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="success-stories.html">Success</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item ms-lg-4">
+                        <a class="btn btn-aiwo btn-aiwo-primary" href="apply.html">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="faq-header text-center overflow-hidden">
+        <div class="video-bg-container">
+            <video autoplay muted loop playsinline>
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-nebula-of-glowing-particles-in-the-cosmos-41566-large.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="container relative z-index-2">
+            <h1 class="display-4 fw-black">Common Questions</h1>
+            <p class="lead opacity-75">Everything You Need to Know About the AIWO Partner Ecosystem</p>
+        </div>
+    </header>
+
+    <!-- FAQ Categories -->
+    <section class="section-padding section-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+                        <button class="nav-link active text-start mb-2 py-3 px-4 border rounded-3"
+                            id="pills-general-tab" data-bs-toggle="pill" data-bs-target="#pills-general">General
+                            Program</button>
+                        <button class="nav-link text-start mb-2 py-3 px-4 border rounded-3" id="pills-commissions-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-commissions">Commissions & Payouts</button>
+                        <button class="nav-link text-start mb-2 py-3 px-4 border rounded-3" id="pills-training-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-training">Training & Certification</button>
+                        <button class="nav-link text-start mb-2 py-3 px-4 border rounded-3" id="pills-technical-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-technical">Technical Integration</button>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+
+                        <!-- General -->
+                        <div class="tab-pane fade show active" id="pills-general">
+                            <h3 class="mb-4">General Program</h3>
+                            <div class="accordion" id="generalAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><button class="accordion-button"
+                                            data-bs-toggle="collapse" data-bs-target="#q1">Who can become an AIWO
+                                            Partner?</button></h2>
+                                    <div id="q1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#generalAccordion">
+                                        <div class="accordion-body">We welcome healthcare professionals, gym owners, spa
+                                            operators, corporate wellness consultants, and tech platforms. The key
+                                            requirement is a commitment to longevity science and a high-quality customer
+                                            base.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#q2">What is the cost to
+                                            join?</button></h2>
+                                    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                                        <div class="accordion-body">Joining the "Registered" tier is completely free.
+                                            Higher tiers like "Certified" and "Premier" may involve training
+                                            certification fees or annual revenue commitments to unlock premium benefits
+                                            like leads and MDF.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Commissions -->
+                        <div class="tab-pane fade" id="pills-commissions">
+                            <h3 class="mb-4">Commissions & Payouts</h3>
+                            <div class="accordion" id="commAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><button class="accordion-button"
+                                            data-bs-toggle="collapse" data-bs-target="#c1">When are commissions
+                                            paid?</button></h2>
+                                    <div id="c1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#commAccordion">
+                                        <div class="accordion-body">Commissions are processed monthly and paid out by
+                                            the 10th of the following month for all cleared sales and renewals.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#c2">Is there recurring
+                                            revenue?</button></h2>
+                                    <div id="c2" class="accordion-collapse collapse" data-bs-parent="#commAccordion">
+                                        <div class="accordion-body">Yes! For Certified tiers and above, you earn 5% to
+                                            10% on all recurring subscriptions and supplement renewals for the lifetime
+                                            of that customer relationship.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more categories as needed -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container section-padding">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-0">AIWO <span class="fw-normal opacity-50">PARTNERS</span></h3>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex gap-4 justify-content-md-end fs-4 mb-3">
+                        <i class="fab fa-linkedin pointer hover-opacity"></i>
+                        <i class="fab fa-twitter pointer hover-opacity"></i>
+                    </div>
+                    <p class="mb-0 small opacity-50">&copy; 2026 AIWO Partner Program. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
